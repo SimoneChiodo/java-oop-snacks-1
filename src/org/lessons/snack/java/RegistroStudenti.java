@@ -8,10 +8,7 @@ public class RegistroStudenti {
     students = new Studente[0];
   }
 
-  void addStudent(String name, String surname, int age){
-    // Create the new student
-    Studente newStudent = new Studente(name, surname, age);
-
+  void addStudent(Studente newStudent){
     // Create the new array
     Studente[] newArray = new Studente[students.length + 1];
 
