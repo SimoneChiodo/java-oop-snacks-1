@@ -16,6 +16,7 @@ public class Main {
     // Snack 3
     RegistroStudenti register = new RegistroStudenti();
     register.addStudent("Mario", "Rossi", 14);
+    register.addStudent("Francesco", "Verdi", 41);
     register.showStudents();
   }
 }

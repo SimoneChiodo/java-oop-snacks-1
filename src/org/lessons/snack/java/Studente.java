@@ -13,7 +13,7 @@ public class Studente {
   }
 
   String getStudente(){
-    return "Studente: " + name + " " + surname + ", " + age + " anni";
+    return "Studente: " + name + " " + surname + ", " + age + " anni\n";
   }
 
 }
